@@ -1,0 +1,89 @@
+   *{
+      box-sizing:border-box;
+      margin:0;
+      padding:0;
+      }
+      
+   body{
+      position:relative;
+      width:100vw;
+      height:100vh;
+      overflow-y:auto;
+      background-color:teal;
+      font-family: sans-serif;
+      }
+   header nav{
+      position:relative;
+      width:100vw;
+      background-color:white;
+      }
+      header nav ul{
+         display:flex;
+         flex-direction:row;
+         justify-content:flex-start
+         }
+      header nav ul li{
+         list-style-type:none;
+         }
+         header nav ul li a{
+            display:inline-block;
+            width:auto;
+            padding:.5em;
+            border:1px solid;
+            border-radius:.5em;
+            text-decoration:none;
+            -webkit-user-select:none;
+            -moz-user-select:none;
+            -ie-user-select:none;
+            user-select:none;
+            -webkit-tap-highlight-color: transparent;
+            transition:all 1s linear;
+            }
+
+         #home{
+            color:deepskyblue;
+            }
+         #home:active{
+            background-color:deepskyblue;
+            color:white;
+            }
+         #portfolio{
+            color:gray;
+            }
+         #portfolio:active{
+            background-color:gray;
+            color:white;
+            }
+         #contact{
+            color:limegreen;
+            }   
+         #contact:active{
+            background-color:limegreen;
+            color:white;
+            }   
+         header nav ul li a:active{
+            transition:all .1s linear;
+            }
+   main:{
+      position:relative;
+      width:100%;
+      margin:0 0 3em;
+      }
+   h2{
+      line-height:2em;
+      }
+   article{
+      position:relative;
+      padding:5vw;
+      width:100%;
+      background-color:white;
+      }
+      article img{
+         position:relative;
+         margin:5vw 0;
+         width:100%;
+         }
+      article p{
+         position:relative;
+         margin:1em 0;
+         }
